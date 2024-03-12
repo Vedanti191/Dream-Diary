@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dreamy Diary - Login</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+    body {
+    background-image: url('login.jpg'); 
+    background-size: 100% 100%; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0; 
+}
+
+</style>
+</head>
+<body>
+<div class="container">
+    <form action="homepage.html" method="post">
+        <h2><u>Dream Diary</u></h2>
+        <h3><span class="safe-haven">Your Safe Haven for Mental Well-being</span></h3>
+        <div class="input-group">
+            <label for="userid">User ID:</label>
+            <input type="text" id="userid" name="userid" required>
+        </div>
+        <div class="input-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="input-group">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <button type="submit">Sign In</button>
+        <div class="extra-links">
+            <a href="forgotpassword.html">Forgot Password?</a>
+            <span>|</span>
+            <a href="createaccountpage.html">Create Account</a>
+        </div>
+    </form>
+</div>
+</body>
+</html>
